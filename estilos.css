@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap')
+;
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0%;
+    padding: 0%;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/* Menu */
+
+.contenedor-header{
+    background: #8ab0df;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header.logo a{
+    font-family: work sans;
+    font-size: 36px;
+    color: #a008a0;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color:rgb(19, 19, 21);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #3c32a2;
+}
+.nav-responsive{
+    background-color: rgb(20, 23, 23);
+    color: rgb(194, 96, 96);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Seccion Inicio*/
+.inicio{
+    background: linear-gradient(to top rgba(175, 206, 224, 0.8), rgb(114, 180, 218));
+    background-image: url("mujer-programando-en-computadora.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: rgb(25, 4, 86);
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #79abf1;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 08px;
+    border: 2px solid #351cdc;
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #351cdc;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #3c32a2;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #dddce8;
+}
+
+/*Seccion Acerca de mi*/
+.acercademi{
+    background-color: #79abf1;
+    color: black;
+    padding: 05% 05%;
+}
+.acercademi .contenedor-section{
+    max-width: 50px;
+    margin: auto;
+}
+.acercademi h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+.acercademi .contenido-section p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+/*Seccion Educacion */
+.educacion{
+    background-color: #79abf1;
+    color: black;
+    padding: 5% 5%;
+}
+.educacion .contenedor-section{
+    max-width: 50px;
+    margin: auto;
+}
+.educacion h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+.educacion .contenido-section p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+/*Experiencia Laboral*/
+.experiencialaboral{
+    background-color: #79abf1;
+    color: black;
+    padding: 5% 5%;
+}
+.experiencialaboral .contenedor-section{
+    max-width: 50px;
+    margin: auto;
+}
+.experiencialaboral h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+.experiencialaboral .contenido-section p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+/*Seccion Habilidades*/
+.habilidades{
+    background-color: #79abf1;
+    color: black;
+    padding: 5% 5%;
+}
+.habilidades .contenedor-section{
+    max-width: 50px;
+    margin: auto;
+}
+.habilidades h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+.habilidades .contenido-section p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+/*Seccion contactame */
+.contactame{
+    background-color: #79abf1;
+    color: black;
+    padding: 5% 5%;
+}
+.contactame .contenido-section{
+    max-width: 50px;
+    margin: auto;
+}
+.contactame h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.contactame button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid beige;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: beige;
+    position: relative;
+    z-index: 10;
+}
+.contactame button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #8ab0df;
+    z-index: -1;
+    transition: 1s;
+}
+.contactame button:hover .overlay{
+    width: 100%;
+}
+
+.contactame .col ul li{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: beige;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #351cdc;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #3c32a2;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #79abf1;
+    color: #a008a0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    font-size: .3s;
+}
+/* seccion responsive*/
+@media screen and (max-width:900px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: rgb(103, 153, 214);
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+    }
+}
+

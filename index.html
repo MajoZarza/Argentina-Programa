@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<!--menu inicio-->    
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Maria Jose Zarza</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#acercademi" onclick="seleccionar()">Acerca de mi</a></li>
+                    <li><a href="#educacion" onclick="seleccionar()">Educacion</a></li>
+                    <li><a href="#experiencialaboral" onclick="seleccionar()">Experiencia Laboral</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#Contactame" onclick="seleccionar()">Contactame</a></li>
+                </ul>    
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div> 
+        </header>
+    </div>
+
+<!--seccion inicio-->  
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="fotoDePerfilDeLInkedIn.jpeg" alt="Foto de perfil de LinkedIn"
+            height="150px" width="150px" />
+        </div>
+        <h1>MARIA JOSE ZARZA</h1>
+        <h2>Futura programadora full-stack de Argentina para el mundo</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            
+    </div>
+</section>
+
+<!--seccion acerca de mi-->
+<section id="acercademi" class="acercademi">
+    <div class="contenido-section">
+        <h2>Acerca de mi</h2>
+        <p>Estoy buscando un nuevo rumbo para mi carrera profesional orientado a la programacion
+            y el desarrollo. Siempre me han gustado los desafios y mantenerme activa aprendiendo
+            cosas nuevas.</p>
+    </div>
+</section>
+
+<!--seccion educacion-->
+<section id="educacion" class="educacion">
+    <div class="contenido-section">
+        <h2>Educación</h2>
+        <ul>
+            <li>Universidad del Centro PBA (UNICEN)
+                Contadora Publica Nacional
+                Finalice en 2013.
+            </li>
+            <li>
+                Educacion IT
+                Curso de Introducción a Base de datos y SQL.
+                Finalice en 2021.
+                Curso de Data Analytics and Visualization. Finalice en 2021
+            </li>
+            <li>
+                Google Activate
+                Introduccion al desarrollo Web I y II. Finalice en 2022
+            </li>
+            <li>
+                Argentina programa
+                Desarrollo front-end. En curso.
+            </li>
+        </ul>
+    </div>
+
+</section>
+<!--seccion experiencia laboral -->
+<section id="experiencialaboral" class="experiencialaboral">
+    <div class="contenido-section">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>Banco Columbia SA
+                Oficial de negocios
+                Septiembre de 2015 - Actualidad
+                Atención al público. Gestiones comerciales de 
+                telemarketing.
+            </li>
+            <li>Gestión Global
+                Oficial de créditos
+                Junio de 2013 - septiembre de 2015
+                Atención al público. Gestiones comerciales de telemarketing.
+            </li>
+        </ul>
+    </div>    
+</section>
+
+<!--seccion habilidades -->
+<section id="habilidades" class="habilidades">
+    <div class="contenido-section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>
+                Capacidad de aprendizaje y adaptación a nuevos escenarios y condiciones.
+            </li>
+            <li>
+                Pensamiento crítico, analítico y resolución de problemas.
+            </li>
+            <li>
+                Nivel de ingles: intermedio.
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- seccion contactame-->    
+<seccion id="contactame" class="contactame">
+    <div contenido-section class="contenido-section">
+        <h2>Contactame</h2>
+            <!--Formulario-->
+            <div class="col">
+                <form>
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero de telefono">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="¿Porque quieres contactarme?">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                    Enviar mensaje<i class="fa-regular fa-envelope"></i>
+                    <span class="overlay"></span>
+                    </button>
+                </form>
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li> Direccion: Gaucho Rivero 24</li>
+                            <li>Telefono: 02314-441616</li>
+                            <!-- <li>E-mail: mariajose_zarza</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</seccion>    
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>        
+<script src="script.js">
+
+</script>     
+</body>
+</html>
